@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="129604" started-at="2021-04-15T11:37:31 IST" finished-at="2021-04-15T11:39:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="129604" started-at="2021-04-15T11:37:31 IST" finished-at="2021-04-15T11:39:40 IST">
+      <class name="testscripts.TC003">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="openApp" is-config="true" duration-ms="20654" started-at="2021-04-15T11:37:31 IST" finished-at="2021-04-15T11:37:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="login" is-config="true" duration-ms="9352" started-at="2021-04-15T11:37:52 IST" finished-at="2021-04-15T11:38:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="testProductInODP" duration-ms="9901" started-at="2021-04-15T11:38:02 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="getData" finished-at="2021-04-15T11:38:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC003@7494e528]" name="logout" is-config="true" duration-ms="1752" started-at="2021-04-15T11:38:12 IST" finished-at="2021-04-15T11:38:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC003.testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="login" is-config="true" duration-ms="10737" started-at="2021-04-15T11:38:13 IST" finished-at="2021-04-15T11:38:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="testProductInODP" duration-ms="17351" started-at="2021-04-15T11:38:24 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="getData" finished-at="2021-04-15T11:38:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC003@7494e528]" name="logout" is-config="true" duration-ms="2152" started-at="2021-04-15T11:38:41 IST" finished-at="2021-04-15T11:38:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC003.testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="login" is-config="true" duration-ms="10685" started-at="2021-04-15T11:38:44 IST" finished-at="2021-04-15T11:38:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="testProductInODP" duration-ms="16157" started-at="2021-04-15T11:38:54 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="getData" finished-at="2021-04-15T11:39:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Blue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC003@7494e528]" name="logout" is-config="true" duration-ms="1759" started-at="2021-04-15T11:39:10 IST" finished-at="2021-04-15T11:39:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC003.testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="login" is-config="true" duration-ms="4873" started-at="2021-04-15T11:39:12 IST" finished-at="2021-04-15T11:39:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="testProductInODP" duration-ms="6721" started-at="2021-04-15T11:39:17 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="getData" finished-at="2021-04-15T11:39:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC003@7494e528]" name="logout" is-config="true" duration-ms="1530" started-at="2021-04-15T11:39:24 IST" finished-at="2021-04-15T11:39:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC003.testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="login" is-config="true" duration-ms="4418" started-at="2021-04-15T11:39:25 IST" finished-at="2021-04-15T11:39:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528]" name="testProductInODP" duration-ms="8318" started-at="2021-04-15T11:39:30 IST" description="Add the Product to ODP and verify it is displayed in ODP" data-provider="getData" finished-at="2021-04-15T11:39:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dresses]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Green]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductInODP -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testscripts.TC003@7494e528]" name="logout" is-config="true" duration-ms="1709" started-at="2021-04-15T11:39:38 IST" finished-at="2021-04-15T11:39:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductInODP status=SUCCESS method=TC003.testProductInODP(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC003@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.TC003@7494e528]" name="closeApp" is-config="true" duration-ms="783" started-at="2021-04-15T11:39:40 IST" finished-at="2021-04-15T11:39:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.TC003 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
